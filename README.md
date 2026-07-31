@@ -82,3 +82,4 @@ Design an abstract base class called BankAccount with properties for account num
 - **[Python_Scripts/cutoff_grade_c.py](Python_Scripts/cutoff_grade_c.py)**: Marks ≥ 60 → Grade C
 - **[Python_Scripts/grade_threshold.py](Python_Scripts/grade_threshold.py)**: Marks ≥ 40 → Grade D
 - **[Python_Scripts/marks_less_than_40.py](Python_Scripts/marks_less_than_40.py)**: Marks < 40 → Fail
+- **[Python_Scripts/electricity_bill.py](Python_Scripts/electricity_bill.py)**: 7. Calculate Electricity Bill
