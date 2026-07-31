@@ -61,3 +61,4 @@ Limit: Maximum 6 uploads per day (Midnight reset).
 3-Strike Rule: Agar koi code 3 baar compilation me fail hota hai, toh API tokens bachane ke liye wo question permanent blacklist ho jayega.
 
 Manual Override: PC par turant bot start/kill karne ke liye desktop ke Start_Moltbot.bat ya Stop_Moltbot.bat buttons use karo.
+- **[Java_Programs/SpeedCalculator.java](Java_Programs/SpeedCalculator.java)**: Write a java program to calculate speed and time .
