@@ -63,3 +63,10 @@ Limit: Maximum 6 uploads per day (Midnight reset).
 Manual Override: PC par turant bot start/kill karne ke liye desktop ke Start_Moltbot.bat ya Stop_Moltbot.bat buttons use karo.
 - **[Java_Programs/SpeedCalculator.java](Java_Programs/SpeedCalculator.java)**: Write a java program to calculate speed and time .
 - **[Python_Scripts/Task_20260731_135601_0.py](Python_Scripts/Task_20260731_135601_0.py)**: 😘
+- **[Java_Programs/Task_20260731_141048.java](Java_Programs/Task_20260731_141048.java)**: Assignment 3: Bank Account Inheritance
+
+Create a Java program that simulates a bank account system using inheritance. You have three types of bank accounts: Basic, Premium, and Gold. 
+
+Basic accounts have a minimum balance of ₹100 and charge a monthly fee of ₹10. Premium accounts have a 50% reduction in monthly fee, but are restricted to withdrawals of ₹1000 per day. Gold accounts have all the features of premium accounts plus an additional interest rate of 2% and an overdraft facility of ₹5000. 
+
+Design an abstract base class called BankAccount with properties for account number, balance, name, and date of creation. Override the deposit and withdraw methods in each child class to suit their respective requirements. Use method overriding and method overloading as required.
