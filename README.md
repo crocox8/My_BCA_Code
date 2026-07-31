@@ -86,3 +86,4 @@ Design an abstract base class called BankAccount with properties for account num
 - **[Java_Programs/ElectricityBillCalculator.java](Java_Programs/ElectricityBillCalculator.java)**: Write a Java program to calculate the electricity bill based on the following conditions:
 - **[Python_Scripts/price_per_unit.py](Python_Scripts/price_per_unit.py)**: Up to 100 units → ₹5 per unit
 - **[Python_Scripts/cost_per_unit.py](Python_Scripts/cost_per_unit.py)**: 101–200 units → ₹7 per unit
+- **[Python_Scripts/price_threshold.py](Python_Scripts/price_threshold.py)**: Above 200 units → ₹10 per unit
