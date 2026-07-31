@@ -32,3 +32,4 @@ Create a Java program that simulates a simple restaurant billing system. The sys
 - A `constructor` in the `Bill` class that takes customer name as an argument and initializes the bill total to zero.
 - A `method` in the `Bill` class called `addItem` that allows adding a `FoodItem` to the bill, and updates the bill total accordingly.
 - A `method` in the `Bill` class called `displayBill` that prints out the customer name, bill total, and a list of all items in the bill.
+- **[Python_Scripts/Task_20260731_134112_0.py](Python_Scripts/Task_20260731_134112_0.py)**: Write a python program to catch vehicle speed and tell how much petrol it needs to reach its 86 km destination if vehicles avg distance covered in 1 liter is 12 .
