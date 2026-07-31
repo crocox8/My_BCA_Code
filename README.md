@@ -79,3 +79,4 @@ Design an abstract base class called BankAccount with properties for account num
 - **[Java_Programs/Main.java](Java_Programs/Main.java)**: Write a Java program to input marks (0–100) and display the grade according to the following criteria:
 - **[Python_Scripts/grade_quality_threshold.py](Python_Scripts/grade_quality_threshold.py)**: Marks ≥ 90 → Grade A
 - **[Python_Scripts/grade_b_threshold.py](Python_Scripts/grade_b_threshold.py)**: Marks ≥ 75 → Grade B
+- **[Python_Scripts/cutoff_grade_c.py](Python_Scripts/cutoff_grade_c.py)**: Marks ≥ 60 → Grade C
