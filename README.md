@@ -84,3 +84,4 @@ Design an abstract base class called BankAccount with properties for account num
 - **[Python_Scripts/marks_less_than_40.py](Python_Scripts/marks_less_than_40.py)**: Marks < 40 → Fail
 - **[Python_Scripts/electricity_bill.py](Python_Scripts/electricity_bill.py)**: 7. Calculate Electricity Bill
 - **[Java_Programs/ElectricityBillCalculator.java](Java_Programs/ElectricityBillCalculator.java)**: Write a Java program to calculate the electricity bill based on the following conditions:
+- **[Python_Scripts/price_per_unit.py](Python_Scripts/price_per_unit.py)**: Up to 100 units → ₹5 per unit
