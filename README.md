@@ -21,3 +21,14 @@ Create a Java program to manage a library's book collection. The program should 
 - Find the book with the most recent year of publication.
 
 Use an array to store the book data and apply string handling techniques to manage the book titles and perform searches. Implement the above operations as methods within a `LibraryManager` class.
+- **[Java_Programs/FoodItem.java](Java_Programs/FoodItem.java)**: Assignment:
+
+**Problem 5: Restaurant Billing System**
+
+Create a Java program that simulates a simple restaurant billing system. The system should have the following features:
+
+- A `FoodItem` class with attributes for item name, price, and quantity.
+- A `Bill` class with attributes for customer name, bill total, and items (using the `FoodItem` class).
+- A `constructor` in the `Bill` class that takes customer name as an argument and initializes the bill total to zero.
+- A `method` in the `Bill` class called `addItem` that allows adding a `FoodItem` to the bill, and updates the bill total accordingly.
+- A `method` in the `Bill` class called `displayBill` that prints out the customer name, bill total, and a list of all items in the bill.
