@@ -1,52 +1,91 @@
 // Assignment Question:
-// **Assignment Question:**
-
-Design and implement a Java application to manage the attendance of a University's Computer Science Department. Create a class named "StudentAttendance" that uses if-else statements and switch statements to determine the attendance status of a student based on the number of classes they have attended out of the total number of classes in a semester. The application should prompt the user to input the student's name, total number of classes in the semester, and the number of classes attended. Then, it should display the attendance status of the student, which should be one of the following: "Good", "Fair", or "Poor".
+// Problem Statement:
 // Author: Ansh Pandey
 
-import java.util.Scanner;
+# Problem: Find the largest palindrome made from the product of two 3-digit numbers
 
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+def is_palindrome(num):
+    return str(num) == str(num)[::-1]
 
-        System.out.print("Enter student's name: ");
-        String studentName = scanner.next();
+def find_largest_palindrome():
+    max_palindrome = 0
+    for i in range(999, 99, -1):
+        for j in range(999, 99, -1):
+            product = i * j
+            if is_palindrome(product) and product > max_palindrome:
+                max_palindrome = product
+    return max_palindrome
 
-        System.out.print("Enter total number of classes in the semester: ");
-        int totalClasses = scanner.nextInt();
+print(find_largest_palindrome())
 
-        System.out.print("Enter number of classes attended: ");
-        int attendedClasses = scanner.nextInt();
+// Problem: Find the largest palindrome made from the product of two 3-digit numbers
 
-        scanner.close();
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
-        StudentAttendance attendance = new StudentAttendance(studentName, totalClasses, attendedClasses);
-
-        attendance.displayAttendanceStatus();
+int is_palindrome(int num) {
+    char str[10];
+    itoa(num, str, 10);
+    int left = 0, right = strlen(str) - 1;
+    while (left < right) {
+        if (str[left] != str[right]) {
+            return 0;
+        }
+        left++;
+        right--;
     }
+    return 1;
 }
 
-class StudentAttendance {
-    private String studentName;
-    private int totalClasses;
-    private int attendedClasses;
+int find_largest_palindrome() {
+    int max_palindrome = 0;
+    for (int i = 999; i >= 99; i--) {
+        for (int j = 999; j >= 99; j--) {
+            int product = i * j;
+            if (is_palindrome(product) && product > max_palindrome) {
+                max_palindrome = product;
+            }
+        }
+    }
+    return max_palindrome;
+}
 
-    public StudentAttendance(String studentName, int totalClasses, int attendedClasses) {
-        this.studentName = studentName;
-        this.totalClasses = totalClasses;
-        this.attendedClasses = attendedClasses;
+int main() {
+    printf("%d\n", find_largest_palindrome());
+    return 0;
+}
+
+// Problem: Find the largest palindrome made from the product of two 3-digit numbers
+
+public class Main {
+    public static boolean isPalindrome(int num) {
+        String str = String.valueOf(num);
+        int left = 0, right = str.length() - 1;
+        while (left < right) {
+            if (str.charAt(left) != str.charAt(right)) {
+                return false;
+            }
+            left++;
+            right--;
+        }
+        return true;
     }
 
-    public void displayAttendanceStatus() {
-        double attendancePercentage = ((double) attendedClasses / totalClasses) * 100;
-
-        if (attendancePercentage >= 90) {
-            System.out.println(studentName + "'s attendance is: Good");
-        } else if (attendancePercentage >= 60) {
-            System.out.println(studentName + "'s attendance is: Fair");
-        } else {
-            System.out.println(studentName + "'s attendance is: Poor");
+    public static int findLargestPalindrome() {
+        int maxPalindrome = 0;
+        for (int i = 999; i >= 99; i--) {
+            for (int j = 999; j >= 99; j--) {
+                int product = i * j;
+                if (isPalindrome(product) && product > maxPalindrome) {
+                    maxPalindrome = product;
+                }
+            }
         }
+        return maxPalindrome;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(findLargestPalindrome());
     }
 }
