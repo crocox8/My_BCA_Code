@@ -62,3 +62,4 @@ Limit: Maximum 6 uploads per day (Midnight reset).
 
 Manual Override: PC par turant bot start/kill karne ke liye desktop ke Start_Moltbot.bat ya Stop_Moltbot.bat buttons use karo.
 - **[Java_Programs/SpeedCalculator.java](Java_Programs/SpeedCalculator.java)**: Write a java program to calculate speed and time .
+- **[Python_Scripts/Task_20260731_135601_0.py](Python_Scripts/Task_20260731_135601_0.py)**: 😘
