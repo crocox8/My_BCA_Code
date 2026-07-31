@@ -10,3 +10,14 @@ This repo contains all of coding I did in my bca and I'm trying to be as profess
 Design and implement a Java application to manage the attendance of a University's Computer Science Department. Create a class named "StudentAttendance" that uses if-else statements and switch statements to determine the attendance status of a student based on the number of classes they have attended out of the total number of classes in a semester. The application should prompt the user to input the student's name, total number of classes in the semester, and the number of classes attended. Then, it should display the attendance status of the student, which should be one of the following: "Good", "Fair", or "Poor".
 - **[Python_Scripts/Task_20260731_132356_0.py](Python_Scripts/Task_20260731_132356_0.py)**: Write a program to catch vehicle speed and tell how much petrol it needs to reach its 885 km destination if vehicles avg distance covered in 1 liter is 18 .
 - **[Python_Scripts/Task_20260731_132514_0.py](Python_Scripts/Task_20260731_132514_0.py)**: Write a program to catch vehicle speed and tell how much petrol it needs to reach its 86 km destination if vehicles avg distance covered in 1 liter is 18 .
+- **[Java_Programs/LibraryManager.java](Java_Programs/LibraryManager.java)**: **Assignment Question:**
+
+Create a Java program to manage a library's book collection. The program should handle the following operations:
+
+- Add a new book to the collection with title, author, and year of publication.
+- Remove a book from the collection based on its title.
+- Display all books in the collection, sorted alphabetically by title.
+- Search for a book by author or by year of publication.
+- Find the book with the most recent year of publication.
+
+Use an array to store the book data and apply string handling techniques to manage the book titles and perform searches. Implement the above operations as methods within a `LibraryManager` class.
