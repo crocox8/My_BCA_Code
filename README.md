@@ -33,3 +33,31 @@ Create a Java program that simulates a simple restaurant billing system. The sys
 - A `method` in the `Bill` class called `addItem` that allows adding a `FoodItem` to the bill, and updates the bill total accordingly.
 - A `method` in the `Bill` class called `displayBill` that prints out the customer name, bill total, and a list of all items in the bill.
 - **[Python_Scripts/Task_20260731_134112_0.py](Python_Scripts/Task_20260731_134112_0.py)**: Write a python program to catch vehicle speed and tell how much petrol it needs to reach its 86 km destination if vehicles avg distance covered in 1 liter is 12 .
+- **[Java_Programs/Task_20260731_135258.java](Java_Programs/Task_20260731_135258.java)**: 💻 Direct Questions:
+Bas apna assignment question raw text me bhejo (e.g., "Write a Java program for multithreading"). Bot khud code likhega, local PC pe compile karega, aur pass hone par GitHub pe upload karega.
+
+📜 Syllabus Kaise Upload Karein (Step-by-Step):
+
+Telegram par bhejo: /renew
+
+Bot puchega: "Do you want to renew the syllabus?" -> Reply karo: YES
+
+Bot puchega: "Please send or paste your NEW SYLLABUS text now."
+
+Apna pura raw syllabus text copy karke Telegram par bhej do. Bot usko topic-by-topic tod kar sequentially solve karna shuru kar dega.
+
+🛠️ System Commands:
+
+/renew - Naya syllabus set ya upload karne ke liye (3-step confirmation flow).
+
+/upload_one_more - Agar daily 6 uploads ki limit hit ho gayi hai aur ek urgent code push karna hai, toh ye command bhejo (+1 bypass).
+
+/removejustuploadedcode - 🚨 KILLSWITCH: Agar bot ne galat code push kar diya hai, toh preview aane ke 5 minute ke andar ye bhejo. Ye file ko local PC aur GitHub repo dono se hamesha ke liye uda dega.
+
+⚙️ System Rules:
+
+Limit: Maximum 6 uploads per day (Midnight reset).
+
+3-Strike Rule: Agar koi code 3 baar compilation me fail hota hai, toh API tokens bachane ke liye wo question permanent blacklist ho jayega.
+
+Manual Override: PC par turant bot start/kill karne ke liye desktop ke Start_Moltbot.bat ya Stop_Moltbot.bat buttons use karo.
