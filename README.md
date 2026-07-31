@@ -70,3 +70,4 @@ Create a Java program that simulates a bank account system using inheritance. Yo
 Basic accounts have a minimum balance of ₹100 and charge a monthly fee of ₹10. Premium accounts have a 50% reduction in monthly fee, but are restricted to withdrawals of ₹1000 per day. Gold accounts have all the features of premium accounts plus an additional interest rate of 2% and an overdraft facility of ₹5000. 
 
 Design an abstract base class called BankAccount with properties for account number, balance, name, and date of creation. Override the deposit and withdraw methods in each child class to suit their respective requirements. Use method overriding and method overloading as required.
+- **[Python_Scripts/Task_20260731_141128_0.py](Python_Scripts/Task_20260731_141128_0.py)**: 1. Check Whether a Number is Positive, Negative, or Zero
