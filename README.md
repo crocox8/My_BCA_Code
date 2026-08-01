@@ -69,3 +69,4 @@ Design an abstract base class called BankAccount with properties for account num
 - **[Python_Scripts/lower_price_threshold.py](Python_Scripts/lower_price_threshold.py)**: ₹2,000 to ₹4,999 → 10% discount
 - **[Python_Scripts/price_discount_threshold.py](Python_Scripts/price_discount_threshold.py)**: ₹5,000 to ₹9,999 → 20% discount
 - **[Python_Scripts/order_total_amount.py](Python_Scripts/order_total_amount.py)**: ₹10,000 or more → 30% discount
+- **[Python_Scripts/original_amount.py](Python_Scripts/original_amount.py)**: Original Amount
