@@ -90,3 +90,4 @@ Design an abstract base class called BankAccount with properties for account num
 - **[Python_Scripts/total_electric_bill.py](Python_Scripts/total_electric_bill.py)**: Display the total electricity bill.
 - **[Python_Scripts/shopping_calculator.py](Python_Scripts/shopping_calculator.py)**: 8. Shopping Discount Calculator
 - **[Java_Programs/Main.java](Java_Programs/Main.java)**: Write a Java program to input the total shopping amount and calculate the final payable amount using the following discount policy:
+- **[Python_Scripts/lower_price_threshold.py](Python_Scripts/lower_price_threshold.py)**: ₹2,000 to ₹4,999 → 10% discount
