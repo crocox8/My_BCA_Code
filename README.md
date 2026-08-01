@@ -88,3 +88,4 @@ Design an abstract base class called BankAccount with properties for account num
 - **[Python_Scripts/cost_per_unit.py](Python_Scripts/cost_per_unit.py)**: 101–200 units → ₹7 per unit
 - **[Python_Scripts/price_threshold.py](Python_Scripts/price_threshold.py)**: Above 200 units → ₹10 per unit
 - **[Python_Scripts/total_electric_bill.py](Python_Scripts/total_electric_bill.py)**: Display the total electricity bill.
+- **[Python_Scripts/shopping_calculator.py](Python_Scripts/shopping_calculator.py)**: 8. Shopping Discount Calculator
