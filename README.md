@@ -72,3 +72,4 @@ Design an abstract base class called BankAccount with properties for account num
 - **[Python_Scripts/original_amount.py](Python_Scripts/original_amount.py)**: Original Amount
 - **[Java_Programs/DiscountAmount.java](Java_Programs/DiscountAmount.java)**: Discount Amount
 - **[Python_Scripts/final_amount_paid.py](Python_Scripts/final_amount_paid.py)**: Final Amount to Pay
+- **[Java_Programs/FestivalDiscountCalculator.java](Java_Programs/FestivalDiscountCalculator.java)**: 9. Festival Discount Calculator
