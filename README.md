@@ -71,3 +71,4 @@ Design an abstract base class called BankAccount with properties for account num
 - **[Python_Scripts/order_total_amount.py](Python_Scripts/order_total_amount.py)**: ₹10,000 or more → 30% discount
 - **[Python_Scripts/original_amount.py](Python_Scripts/original_amount.py)**: Original Amount
 - **[Java_Programs/DiscountAmount.java](Java_Programs/DiscountAmount.java)**: Discount Amount
+- **[Python_Scripts/final_amount_paid.py](Python_Scripts/final_amount_paid.py)**: Final Amount to Pay
