@@ -76,3 +76,4 @@ Design an abstract base class called BankAccount with properties for account num
 - **[Python_Scripts/sale_purchase_amount.py](Python_Scripts/sale_purchase_amount.py)**: During a festival sale, a store offers discounts based on the purchase amount:
 - **[Python_Scripts/price_discount_threshold.py](Python_Scripts/price_discount_threshold.py)**: Below ₹1,000 → 5% discount
 - **[Python_Scripts/price_discount_threshold.py](Python_Scripts/price_discount_threshold.py)**: ₹1,000–₹4,999 → 10% discount
+- **[Java_Programs/Discount.java](Java_Programs/Discount.java)**: ₹5,000–₹9,999 → 15% discount
