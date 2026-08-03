@@ -1,17 +1,19 @@
 # Assignment Question:
-# Below ₹1,000 → 5% discount
+# ₹1,000–₹4,999 → 10% discount
 # Author: Ansh Pandey
 
-class Bill:
-    def __init__(self, bill_amount):
-        self.bill_amount = bill_amount
+# Discount Calculator in Python
 
-    def calculate_discount(self):
-        if self.bill_amount <= 1000:
-            discount = self.bill_amount * 0.05
-            self.final_amount = self.bill_amount - discount
-            print(f"The Bill amount is ₹{self.bill_amount}. Discount of ₹{discount:.2f} applied. Final bill: ₹{self.final_amount:.2f}")
+# Sabse pehle discount range ka scope define karte hain
+def calculate_discount(price):
+    # Loop chalaate hain jisme discount kya hai?
+    for i in range(1000, 5000):
+        if i >= 1000 and i <= 4999:
+            # 10% discount se calculate karte hain
+            discount = (i * 10) / 100
+            # Final amount ko print karte hain
+            print(f"Discount on ₹{i}: ₹{discount}, Final amount: ₹{(i - discount)}")
+            return
 
-amount = float(input("Enter the bill amount: "))
-bill = Bill(amount)
-bill.calculate_discount()
+# Sabse aakhir mein function ko call karte hain
+calculate_discount(0)
